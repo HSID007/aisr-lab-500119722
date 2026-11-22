@@ -1,0 +1,42 @@
+{
+  "env": {
+    "python": "3.12.1",
+    "numpy": "2.3.2",
+    "matplotlib": "3.8.4",
+    "os": "Windows 11",
+    "cpu": "Intel64 Family 6 Model 154 Stepping 3, GenuineIntel",
+    "scipy": "1.16.1"
+  },
+  "maze1": {
+    "rows": 15,
+    "cols": 21,
+    "open": 139,
+    "bfs": {
+      "expanded": 137,
+      "path_cells": 95,
+      "steps": 94,
+      "max_frontier": 2,
+      "valid": true
+    },
+    "dfs": {
+      "expanded": 105,
+      "path_cells": 95,
+      "steps": 94,
+      "max_frontier": 3,
+      "valid": true
+    }
+  },
+  "same_path": true,
+  "maze2": {
+    "bfs": {
+      "expanded": 142,
+      "steps": 40,
+      "valid": true
+    },
+    "dfs": {
+      "expanded": 59,
+      "steps": 54,
+      "valid": true
+    }
+  }
+}

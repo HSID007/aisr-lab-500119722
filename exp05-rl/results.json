@@ -1,0 +1,81 @@
+{
+  "env": {
+    "python": "3.12.1",
+    "numpy": "2.3.2",
+    "matplotlib": "3.8.4",
+    "os": "Windows 11",
+    "cpu": "Intel64 Family 6 Model 154 Stepping 3, GenuineIntel",
+    "scipy": "1.16.1"
+  },
+  "params": {
+    "grid": "5 x 7",
+    "goal": 10.0,
+    "pit": -10.0,
+    "step": -0.1,
+    "alpha": 0.5,
+    "gamma": 0.95,
+    "episodes": 600,
+    "step_cap": 120,
+    "seed": 0
+  },
+  "eps_table": [
+    {
+      "eps": 0.01,
+      "mean_last100": 9.08,
+      "first_success": 3
+    },
+    {
+      "eps": 0.1,
+      "mean_last100": 8.997000000000002,
+      "first_success": 1
+    },
+    {
+      "eps": 0.2,
+      "mean_last100": 8.857999999999999,
+      "first_success": 3
+    },
+    {
+      "eps": 0.5,
+      "mean_last100": 7.442,
+      "first_success": 2
+    }
+  ],
+  "optimality": [
+    {
+      "eps": 0.01,
+      "states_optimal": 26,
+      "states": 28,
+      "path_steps": 10,
+      "reaches_goal": true
+    },
+    {
+      "eps": 0.1,
+      "states_optimal": 26,
+      "states": 28,
+      "path_steps": 10,
+      "reaches_goal": true
+    },
+    {
+      "eps": 0.2,
+      "states_optimal": 28,
+      "states": 28,
+      "path_steps": 10,
+      "reaches_goal": true
+    },
+    {
+      "eps": 0.5,
+      "states_optimal": 28,
+      "states": 28,
+      "path_steps": 10,
+      "reaches_goal": true
+    }
+  ],
+  "optimal_steps": 10,
+  "policy_grid": [
+    "\u2192 \u2192 \u2192 \u2192 \u2192 \u2192 G",
+    "\u2192 \u2191 # \u2191 # \u2191 \u2191",
+    "\u2191 \u2191 # \u2191 # \u2191 P",
+    "\u2191 \u2191 # \u2191 \u2192 \u2191 \u2190",
+    "\u2191 \u2192 \u2192 \u2191 \u2192 \u2191 \u2190"
+  ]
+}

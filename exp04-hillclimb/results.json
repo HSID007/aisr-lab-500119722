@@ -1,0 +1,67 @@
+{
+  "env": {
+    "python": "3.12.1",
+    "numpy": "2.3.2",
+    "matplotlib": "3.8.4",
+    "os": "Windows 11",
+    "cpu": "Intel64 Family 6 Model 154 Stepping 3, GenuineIntel",
+    "scipy": "1.16.1"
+  },
+  "landscape": {
+    "local_maxima_x": [
+      0.52,
+      1.47,
+      2.75,
+      5.28,
+      7.65,
+      8.85,
+      9.95
+    ],
+    "global_x": 7.646076794657763,
+    "global_f": 1.5502388483401068
+  },
+  "plain": {
+    "trials": 200,
+    "successes": 25,
+    "p": 0.125
+  },
+  "restarts": [
+    {
+      "k": 1,
+      "trials": 200,
+      "successes": 29,
+      "measured": 0.145,
+      "predicted": 0.125
+    },
+    {
+      "k": 2,
+      "trials": 200,
+      "successes": 51,
+      "measured": 0.255,
+      "predicted": 0.234375
+    },
+    {
+      "k": 5,
+      "trials": 200,
+      "successes": 112,
+      "measured": 0.56,
+      "predicted": 0.487091064453125
+    },
+    {
+      "k": 10,
+      "trials": 200,
+      "successes": 156,
+      "measured": 0.78,
+      "predicted": 0.7369244238361716
+    },
+    {
+      "k": 20,
+      "trials": 200,
+      "successes": 195,
+      "measured": 0.975,
+      "predicted": 0.9307912412260697
+    }
+  ],
+  "k_for_99": 35,
+  "p_std_err": 0.023385358667337135
+}

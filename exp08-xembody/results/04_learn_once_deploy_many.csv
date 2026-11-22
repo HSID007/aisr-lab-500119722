@@ -1,0 +1,5 @@
+robot,expert_pct,bc_agnostic_pct,bc_proprio_pct
+kuka_iiwa,100.0,100.0,100.0
+franka_panda,100.0,100.0,0.0
+xarm6,100.0,100.0,0.0
+kuka_mini,36.7,33.3,16.7

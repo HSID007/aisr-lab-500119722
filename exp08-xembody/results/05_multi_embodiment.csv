@@ -1,0 +1,4 @@
+unseen,single_source,multi_sources,single_agnostic_pct,single_proprio_pct,multi_agnostic_pct,multi_proprio_pct
+kuka_iiwa,franka_panda,franka_panda+xarm6,100.0,0.0,100.0,0.0
+franka_panda,kuka_iiwa,kuka_iiwa+xarm6,100.0,0.0,100.0,33.3
+xarm6,kuka_iiwa,kuka_iiwa+franka_panda,93.3,0.0,100.0,0.0

@@ -1,0 +1,65 @@
+{
+  "env": {
+    "python": "3.12.1",
+    "numpy": "2.3.2",
+    "matplotlib": "3.8.4",
+    "os": "Windows 11",
+    "cpu": "Intel64 Family 6 Model 154 Stepping 3, GenuineIntel",
+    "scipy": "1.16.1"
+  },
+  "initial_loss": 0.2748629616482994,
+  "lr_table": [
+    {
+      "lr": 0.05,
+      "final_mse": 0.002314868988271694,
+      "converged": false,
+      "epoch_mse_below_0.01": 10851
+    },
+    {
+      "lr": 0.5,
+      "final_mse": 0.00011144618732742166,
+      "converged": true,
+      "epoch_mse_below_0.01": 1086
+    },
+    {
+      "lr": 2.0,
+      "final_mse": 2.4552864803967287e-05,
+      "converged": true,
+      "epoch_mse_below_0.01": 272
+    },
+    {
+      "lr": 10.0,
+      "final_mse": 5.807149088053469e-06,
+      "converged": true,
+      "epoch_mse_below_0.01": 70
+    }
+  ],
+  "best_lr": 10.0,
+  "predictions": [
+    {
+      "x1": 0,
+      "x2": 0,
+      "target": 0,
+      "pred": 0.0016449935329376805
+    },
+    {
+      "x1": 0,
+      "x2": 1,
+      "target": 1,
+      "pred": 0.9977272434798854
+    },
+    {
+      "x1": 1,
+      "x2": 0,
+      "target": 1,
+      "pred": 0.9977055820393819
+    },
+    {
+      "x1": 1,
+      "x2": 1,
+      "target": 0,
+      "pred": 0.003176733235188857
+    }
+  ],
+  "zero_init_mse": 0.25
+}

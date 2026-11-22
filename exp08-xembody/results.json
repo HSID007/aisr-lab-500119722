@@ -1,0 +1,194 @@
+{
+  "env": {
+    "python": "3.12.1",
+    "numpy": "2.3.2",
+    "matplotlib": "3.8.4",
+    "os": "Windows 11",
+    "cpu": "Intel64 Family 6 Model 154 Stepping 3, GenuineIntel",
+    "scipy": "1.16.1",
+    "pybullet": 202010061
+  },
+  "part1": [
+    {
+      "robot": "kuka_iiwa",
+      "dof": "7",
+      "max_reach_m": "1.257",
+      "task_coverage_pct": "100.0"
+    },
+    {
+      "robot": "franka_panda",
+      "dof": "7",
+      "max_reach_m": "1.276",
+      "task_coverage_pct": "100.0"
+    },
+    {
+      "robot": "xarm6",
+      "dof": "6",
+      "max_reach_m": "1.029",
+      "task_coverage_pct": "100.0"
+    },
+    {
+      "robot": "kuka_mini",
+      "dof": "7",
+      "max_reach_m": "0.943",
+      "task_coverage_pct": "66.0"
+    }
+  ],
+  "part2": [
+    {
+      "robot": "kuka_iiwa",
+      "success_pct": "100.0",
+      "mean_path_dev_cm": "0.0",
+      "median_cube_goal_err_cm": "0.2"
+    },
+    {
+      "robot": "franka_panda",
+      "success_pct": "0.0",
+      "mean_path_dev_cm": "19.8",
+      "median_cube_goal_err_cm": "27.1"
+    },
+    {
+      "robot": "xarm6",
+      "success_pct": "0.0",
+      "mean_path_dev_cm": "56.0",
+      "median_cube_goal_err_cm": "27.1"
+    },
+    {
+      "robot": "kuka_mini",
+      "success_pct": "0.0",
+      "mean_path_dev_cm": "14.3",
+      "median_cube_goal_err_cm": "27.1"
+    }
+  ],
+  "part3": [
+    {
+      "robot": "kuka_iiwa",
+      "success_pct": "100.0",
+      "mean_steps_successful": "38.5",
+      "median_cube_goal_err_cm": "0.2"
+    },
+    {
+      "robot": "franka_panda",
+      "success_pct": "100.0",
+      "mean_steps_successful": "38.3",
+      "median_cube_goal_err_cm": "0.1"
+    },
+    {
+      "robot": "xarm6",
+      "success_pct": "100.0",
+      "mean_steps_successful": "50.6",
+      "median_cube_goal_err_cm": "0.1"
+    },
+    {
+      "robot": "kuka_mini",
+      "success_pct": "40.0",
+      "mean_steps_successful": "43.1",
+      "median_cube_goal_err_cm": "20.5"
+    }
+  ],
+  "part4": [
+    {
+      "robot": "kuka_iiwa",
+      "expert_pct": "100.0",
+      "bc_agnostic_pct": "100.0",
+      "bc_proprio_pct": "100.0"
+    },
+    {
+      "robot": "franka_panda",
+      "expert_pct": "100.0",
+      "bc_agnostic_pct": "100.0",
+      "bc_proprio_pct": "0.0"
+    },
+    {
+      "robot": "xarm6",
+      "expert_pct": "100.0",
+      "bc_agnostic_pct": "100.0",
+      "bc_proprio_pct": "0.0"
+    },
+    {
+      "robot": "kuka_mini",
+      "expert_pct": "36.7",
+      "bc_agnostic_pct": "33.3",
+      "bc_proprio_pct": "16.7"
+    }
+  ],
+  "part5": [
+    {
+      "unseen": "kuka_iiwa",
+      "single_source": "franka_panda",
+      "multi_sources": "franka_panda+xarm6",
+      "single_agnostic_pct": "100.0",
+      "single_proprio_pct": "0.0",
+      "multi_agnostic_pct": "100.0",
+      "multi_proprio_pct": "0.0"
+    },
+    {
+      "unseen": "franka_panda",
+      "single_source": "kuka_iiwa",
+      "multi_sources": "kuka_iiwa+xarm6",
+      "single_agnostic_pct": "100.0",
+      "single_proprio_pct": "0.0",
+      "multi_agnostic_pct": "100.0",
+      "multi_proprio_pct": "33.3"
+    },
+    {
+      "unseen": "xarm6",
+      "single_source": "kuka_iiwa",
+      "multi_sources": "kuka_iiwa+franka_panda",
+      "single_agnostic_pct": "93.3",
+      "single_proprio_pct": "0.0",
+      "multi_agnostic_pct": "100.0",
+      "multi_proprio_pct": "0.0"
+    }
+  ],
+  "exA": [
+    {
+      "dart_noise_m": 0.0,
+      "kuka_iiwa_pct": 96.7,
+      "franka_panda_pct": 100.0
+    },
+    {
+      "dart_noise_m": 0.01,
+      "kuka_iiwa_pct": 100.0,
+      "franka_panda_pct": 96.7
+    }
+  ],
+  "exB": [
+    {
+      "robot": "kuka_iiwa",
+      "rest_pose": true,
+      "success_pct": 100.0,
+      "joint_drift_rad": 2.59
+    },
+    {
+      "robot": "kuka_iiwa",
+      "rest_pose": false,
+      "success_pct": 100.0,
+      "joint_drift_rad": 2.95
+    },
+    {
+      "robot": "franka_panda",
+      "rest_pose": true,
+      "success_pct": 100.0,
+      "joint_drift_rad": 0.52
+    },
+    {
+      "robot": "franka_panda",
+      "rest_pose": false,
+      "success_pct": 100.0,
+      "joint_drift_rad": 0.54
+    },
+    {
+      "robot": "kuka_mini",
+      "rest_pose": true,
+      "success_pct": 16.7,
+      "joint_drift_rad": 3.27
+    },
+    {
+      "robot": "kuka_mini",
+      "rest_pose": false,
+      "success_pct": 53.3,
+      "joint_drift_rad": 3.61
+    }
+  ]
+}

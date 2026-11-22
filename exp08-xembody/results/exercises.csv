@@ -1,0 +1,9 @@
+exercise,dart_noise_m,kuka_iiwa_pct,franka_panda_pct,robot,rest_pose,success_pct,joint_drift_rad
+A,0.0,96.7,100.0,,,,
+A,0.01,100.0,96.7,,,,
+B,,,,kuka_iiwa,True,100.0,2.59
+B,,,,kuka_iiwa,False,100.0,2.95
+B,,,,franka_panda,True,100.0,0.52
+B,,,,franka_panda,False,100.0,0.54
+B,,,,kuka_mini,True,16.7,3.27
+B,,,,kuka_mini,False,53.3,3.61

@@ -1,0 +1,274 @@
+{
+  "env": {
+    "python": "3.12.1",
+    "numpy": "2.3.2",
+    "matplotlib": "3.8.4",
+    "os": "Windows 11",
+    "cpu": "Intel64 Family 6 Model 154 Stepping 3, GenuineIntel",
+    "scipy": "1.16.1",
+    "webots": "R2025a"
+  },
+  "partA": [
+    {
+      "setting": "default",
+      "run": 1,
+      "path": 6.153362273287885,
+      "speed": 0.051415125946589944,
+      "stuck_mean": 7.112299465240642,
+      "stuck_worst": 29.946524064171122,
+      "coverage": 80.46875
+    },
+    {
+      "setting": "default",
+      "run": 2,
+      "path": 6.153362273287885,
+      "speed": 0.051415125946589944,
+      "stuck_mean": 7.112299465240642,
+      "stuck_worst": 29.946524064171122,
+      "coverage": 80.46875
+    },
+    {
+      "setting": "default",
+      "run": 3,
+      "path": 6.153362273287885,
+      "speed": 0.051415125946589944,
+      "stuck_mean": 7.112299465240642,
+      "stuck_worst": 29.946524064171122,
+      "coverage": 80.46875
+    },
+    {
+      "setting": "cruise=0.9",
+      "run": 1,
+      "path": 10.656527616077971,
+      "speed": 0.08904184171188143,
+      "stuck_mean": 3.6363636363636367,
+      "stuck_worst": 4.81283422459893,
+      "coverage": 85.9375
+    },
+    {
+      "setting": "cruise=0.9",
+      "run": 2,
+      "path": 10.656527616077971,
+      "speed": 0.08904184171188143,
+      "stuck_mean": 3.6363636363636367,
+      "stuck_worst": 4.81283422459893,
+      "coverage": 85.9375
+    },
+    {
+      "setting": "cruise=0.9",
+      "run": 3,
+      "path": 10.656527616077971,
+      "speed": 0.08904184171188143,
+      "stuck_mean": 3.6363636363636367,
+      "stuck_worst": 4.81283422459893,
+      "coverage": 85.9375
+    }
+  ],
+  "partB": [
+    {
+      "setting": "default",
+      "path": 83.5909044730943,
+      "speed": 0.46563560869593523,
+      "stuck_mean": 0.0,
+      "stuck_worst": 0.0,
+      "coverage": 22.65625
+    },
+    {
+      "setting": "bubble=0.15",
+      "path": 13.393164453354688,
+      "speed": 0.07460541696387414,
+      "stuck_mean": 78.07486631016043,
+      "stuck_worst": 78.07486631016043,
+      "coverage": 12.109375
+    },
+    {
+      "setting": "k_turn=0.5",
+      "path": 74.3219158500113,
+      "speed": 0.4140035419452501,
+      "stuck_mean": 0.0,
+      "stuck_worst": 0.0,
+      "coverage": 28.515625
+    }
+  ],
+  "ex1": [
+    {
+      "cruise": 0.2,
+      "run": 1,
+      "coverage": 56.25,
+      "stuck_worst": 0.267379679144385,
+      "path": 2.7294591021809156
+    },
+    {
+      "cruise": 0.2,
+      "run": 2,
+      "coverage": 56.25,
+      "stuck_worst": 0.267379679144385,
+      "path": 2.7294591021809156
+    },
+    {
+      "cruise": 0.2,
+      "run": 3,
+      "coverage": 56.25,
+      "stuck_worst": 0.267379679144385,
+      "path": 2.7294591021809156
+    },
+    {
+      "cruise": 0.4,
+      "run": 1,
+      "coverage": 76.953125,
+      "stuck_worst": 1.6042780748663104,
+      "path": 5.225734457930426
+    },
+    {
+      "cruise": 0.4,
+      "run": 2,
+      "coverage": 76.953125,
+      "stuck_worst": 1.6042780748663104,
+      "path": 5.225734457930426
+    },
+    {
+      "cruise": 0.4,
+      "run": 3,
+      "coverage": 76.953125,
+      "stuck_worst": 1.6042780748663104,
+      "path": 5.225734457930426
+    },
+    {
+      "cruise": 0.6,
+      "run": 1,
+      "coverage": 80.859375,
+      "stuck_worst": 3.2085561497326207,
+      "path": 7.648189751327624
+    },
+    {
+      "cruise": 0.6,
+      "run": 2,
+      "coverage": 80.859375,
+      "stuck_worst": 3.2085561497326207,
+      "path": 7.648189751327624
+    },
+    {
+      "cruise": 0.6,
+      "run": 3,
+      "coverage": 80.859375,
+      "stuck_worst": 3.2085561497326207,
+      "path": 7.648189751327624
+    },
+    {
+      "cruise": 0.8,
+      "run": 1,
+      "coverage": 83.59375,
+      "stuck_worst": 4.010695187165775,
+      "path": 9.556419988004334
+    },
+    {
+      "cruise": 0.8,
+      "run": 2,
+      "coverage": 83.59375,
+      "stuck_worst": 4.010695187165775,
+      "path": 9.556419988004334
+    },
+    {
+      "cruise": 0.8,
+      "run": 3,
+      "coverage": 83.59375,
+      "stuck_worst": 4.010695187165775,
+      "path": 9.556419988004334
+    },
+    {
+      "cruise": 1.0,
+      "run": 1,
+      "coverage": 85.9375,
+      "stuck_worst": 6.149732620320856,
+      "path": 11.498157983580459
+    },
+    {
+      "cruise": 1.0,
+      "run": 2,
+      "coverage": 85.9375,
+      "stuck_worst": 6.149732620320856,
+      "path": 11.498157983580459
+    },
+    {
+      "cruise": 1.0,
+      "run": 3,
+      "coverage": 85.9375,
+      "stuck_worst": 6.149732620320856,
+      "path": 11.498157983580459
+    }
+  ],
+  "ex4": [
+    {
+      "timestep_ms": 8,
+      "run": 1,
+      "coverage": 82.8125,
+      "stuck_mean": 0.1467645096731154,
+      "stuck_worst": 0.20013342228152103,
+      "path": 6.822389886239556
+    },
+    {
+      "timestep_ms": 8,
+      "run": 2,
+      "coverage": 82.8125,
+      "stuck_mean": 0.1467645096731154,
+      "stuck_worst": 0.20013342228152103,
+      "path": 6.822389886239556
+    },
+    {
+      "timestep_ms": 8,
+      "run": 3,
+      "coverage": 82.8125,
+      "stuck_mean": 0.1467645096731154,
+      "stuck_worst": 0.20013342228152103,
+      "path": 6.822389886239556
+    },
+    {
+      "timestep_ms": 32,
+      "run": 1,
+      "coverage": 80.46875,
+      "stuck_mean": 7.112299465240642,
+      "stuck_worst": 29.946524064171122,
+      "path": 6.153362273287885
+    },
+    {
+      "timestep_ms": 32,
+      "run": 2,
+      "coverage": 80.46875,
+      "stuck_mean": 7.112299465240642,
+      "stuck_worst": 29.946524064171122,
+      "path": 6.153362273287885
+    },
+    {
+      "timestep_ms": 32,
+      "run": 3,
+      "coverage": 80.46875,
+      "stuck_mean": 7.112299465240642,
+      "stuck_worst": 29.946524064171122,
+      "path": 6.153362273287885
+    },
+    {
+      "timestep_ms": 64,
+      "run": 1,
+      "coverage": 63.28125,
+      "stuck_mean": 10.967741935483872,
+      "stuck_worst": 15.591397849462366,
+      "path": 5.095556597521617
+    },
+    {
+      "timestep_ms": 64,
+      "run": 2,
+      "coverage": 63.28125,
+      "stuck_mean": 10.967741935483872,
+      "stuck_worst": 15.591397849462366,
+      "path": 5.095556597521617
+    },
+    {
+      "timestep_ms": 64,
+      "run": 3,
+      "coverage": 63.28125,
+      "stuck_mean": 10.967741935483872,
+      "stuck_worst": 15.591397849462366,
+      "path": 5.095556597521617
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+robot,success_pct,mean_steps_successful,median_cube_goal_err_cm
+kuka_iiwa,100.0,38.5,0.2
+franka_panda,100.0,38.3,0.1
+xarm6,100.0,50.6,0.1
+kuka_mini,40.0,43.1,20.5
